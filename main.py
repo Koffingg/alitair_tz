@@ -6,6 +6,8 @@ import requests
 import pandas as pd
 
 # Task №1
+# один из файлов некорректно читается и не загружается, поэтому первое задание выполнено наполовину 
+# выполнена загрузка файла и сформирована промежуточная таблица для дальнейшего использования данных
 # чтение xml по url
 url = urlopen('http://stripmag.ru/datafeed/p5s_full_stock.xml')
 mydoc = minidom.parse(url)
